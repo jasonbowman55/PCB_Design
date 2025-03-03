@@ -5021,10 +5021,10 @@
 	)
 	(text "Debug LEDs"
 		(exclude_from_sim no)
-		(at 107.696 113.792 0)
+		(at 109.474 114.046 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
 			)
 		)
 		(uuid "31154435-3ddc-4c9e-965b-4e7905e50ff3")
@@ -5063,7 +5063,7 @@
 	)
 	(text "USB-C Receptical"
 		(exclude_from_sim no)
-		(at 35.814 138.43 0)
+		(at 58.42 139.7 0)
 		(effects
 			(font
 				(size 2.54 2.54)
