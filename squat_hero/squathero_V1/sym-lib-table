@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "schematic")(type "KiCad")(uri "${KIPRJMOD}/jlcpcb_parts/usb_c/schematic.kicad_sym")(options "")(descr ""))
+)
