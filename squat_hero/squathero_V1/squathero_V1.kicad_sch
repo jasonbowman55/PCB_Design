@@ -987,50 +987,63 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "JLCPCB_side_button:PTS840GKPSMTRLFS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S1"
-				(at 7.874 -1.016 90)
+			(property "Reference" "SW"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Tactile Button, 160gf"
-				(at 6.096 -1.524 90)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-				(at 0 -10.16 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
+					)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2025-04-17:SW-SMD_4P-L3.5-W3.5_PTS840GKPSMTRLFS"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
-				(at -2.286 0.127 0)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180613/C225081_9F77E026501914A5FDEA5EA7C31CDE09.pdf"
+				(at 0 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(property "Description" "Circuit:SPST Actuator Style:Rectangle button Operating Force:220gf Mounting Style:Brick nogging Switch Length:3.55mm Switch Width:3.5mm Contact Current:50mA Voltage Rating (DC):12V With Lamp:- Pin Style:Gull Wing Mechanical Life:- Operating Temperature:-4"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "PTS840GKPSMTRLFS"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "C&K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1039,7 +1052,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C318884"
+			(property "Supplier Part" "C221906"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1048,7 +1061,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "403305"
+			(property "Supplier" "LCSC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1057,8 +1070,8 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.025USD"
-				(at 0 0 0)
+			(property "LCSC Part Name" "轻触开关3.5mm*3.55mm，220gf"
+				(at 0 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1066,208 +1079,10 @@
 					(hide yes)
 				)
 			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Switches,Tactile Switches"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XKB Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "TS-1187A-B-A-B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Switch Length" "5.1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage Rating (Dc)" "12V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "With Lamp" "No"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Force" "160gf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Actuator/Cap Color" "Golden"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mechanical Life" "100000 Times"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Strike Gundam" "NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Circuit" "SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Switch Height" "1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Actuator Style" "Round Button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Switch Width" "5.1mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Contact Current" "50mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature" "-30°C~+85°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounting Style" "Brick nogging"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C318884"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Tactile Button, 160gf_0_1"
+			(symbol "PTS840GKPSMTRLFS_1_0"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
+						(xy -5.08 0) (xy -4.064 0)
 					)
 					(stroke
 						(width 0)
@@ -1279,7 +1094,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy 2.54 -5.08)
+						(xy -5.08 -2.54) (xy -4.064 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1291,7 +1106,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 0.762) (xy -1.27 -2.54)
+						(xy -3.81 2.032) (xy -3.81 1.778) (xy -3.81 1.778) (xy 3.81 1.778) (xy 3.81 1.778) (xy 3.81 2.032)
+						(xy 3.81 2.032) (xy 1.016 2.032) (xy 1.016 2.032) (xy 1.016 2.794) (xy 1.016 2.794) (xy -1.016 2.794)
+						(xy -1.016 2.794) (xy -1.016 2.032) (xy -1.016 2.032) (xy -3.81 2.032)
 					)
 					(stroke
 						(width 0)
@@ -1303,7 +1120,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 2.54)
+						(xy -3.81 0.254) (xy -3.81 -2.794)
 					)
 					(stroke
 						(width 0)
@@ -1313,31 +1130,57 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0.508)
-					(radius 0.3175)
+				(arc
+					(start -2.286 0.2286)
+					(mid -3.8101 0.2413)
+					(end -2.286 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.794)
-					(radius 0.3175)
+				(arc
+					(start -2.286 -2.794)
+					(mid -3.81 -2.794)
+					(end -2.286 -2.794)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 0.2286)
+					(mid 2.2859 0.2413)
+					(end 3.81 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -2.794)
+					(mid 2.286 -2.794)
+					(end 3.81 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 -3.302) (xy 0 -5.08)
+						(xy 3.81 -2.794) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1347,87 +1190,116 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Tactile Button, 160gf_1_1"
-				(rectangle
-					(start -2.54 5.08)
-					(end 2.54 -7.62)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 4.064 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at -5.08 2.54 0)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.064 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
-								(size 1 1)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -5.08 0)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "C"
+					(name "2"
 						(effects
 							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1 1)
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -5.08 180)
+				(pin input line
+					(at 2.54 5.08 180)
 					(length 2.54)
-					(name "D"
+					(name "5"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5890,7 +5762,7 @@
 	(text_box "Enable Button"
 		(exclude_from_sim no)
 		(at 227.33 132.08 0)
-		(size 35.56 20.32)
+		(size 45.72 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5920,6 +5792,12 @@
 		(uuid "0c361699-bbcb-44bf-ad9c-5f26aba0235e")
 	)
 	(junction
+		(at 259.08 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e1bfac5-3deb-4091-bac3-3cf4e021893a")
+	)
+	(junction
 		(at 240.03 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5942,6 +5820,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1da0c32d-96ff-4143-bba5-93bfbc13a6e4")
+	)
+	(junction
+		(at 243.84 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6da7ae-ba41-467e-9b8d-e43febb859e9")
 	)
 	(junction
 		(at 43.18 124.46)
@@ -6046,6 +5930,12 @@
 		(uuid "533f9382-042b-43ed-b65b-4d5f159d4363")
 	)
 	(junction
+		(at 243.84 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53bec7be-45d7-465b-9351-f30e83adf1c2")
+	)
+	(junction
 		(at 252.73 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6082,7 +5972,7 @@
 		(uuid "841f854b-1675-4c6a-ac10-d9267f9eec19")
 	)
 	(junction
-		(at 255.27 142.24)
+		(at 262.89 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8573b722-0e8b-4b66-a104-e3e9ac111c66")
@@ -6242,6 +6132,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdfdda86-3e18-4a60-89d1-d24636bb2f51")
+	)
+	(junction
+		(at 259.08 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8b8fc6-656e-4869-94b3-7adee46d2b1f")
+	)
+	(no_connect
+		(at 254 135.89)
+		(uuid "177de4b4-0c4c-4231-8dad-950a1ecde549")
 	)
 	(no_connect
 		(at 250.19 64.77)
@@ -6467,6 +6367,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 137.16) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf01098-d5e4-4ffd-a5b9-248cd99896cb")
+	)
+	(wire
+		(pts
 			(xy 222.25 137.16) (xy 240.03 137.16)
 		)
 		(stroke
@@ -6554,6 +6464,16 @@
 			(type default)
 		)
 		(uuid "2417de9c-f2e3-4a03-9f81-90bca4e3bb8d")
+	)
+	(wire
+		(pts
+			(xy 259.08 143.51) (xy 259.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24967e1d-c8af-4208-95c2-3c7840392fe3")
 	)
 	(wire
 		(pts
@@ -6807,7 +6727,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 147.32) (xy 255.27 147.32)
+			(xy 259.08 147.32) (xy 262.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7087,7 +7007,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 137.16) (xy 251.46 137.16)
+			(xy 262.89 137.16) (xy 259.08 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7407,7 +7327,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 142.24) (xy 259.08 142.24)
+			(xy 262.89 142.24) (xy 266.7 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7687,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 147.32) (xy 255.27 142.24)
+			(xy 262.89 147.32) (xy 262.89 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8097,6 +8017,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 140.97) (xy 243.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffbc193-fd81-4361-bf48-c478a8022faf")
+	)
+	(wire
+		(pts
 			(xy 224.79 92.71) (xy 224.79 115.57)
 		)
 		(stroke
@@ -8337,7 +8267,17 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 142.24) (xy 255.27 137.16)
+			(xy 243.84 143.51) (xy 243.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1b0a42-2c8f-403b-aa00-5d0f612df04d")
+	)
+	(wire
+		(pts
+			(xy 262.89 142.24) (xy 262.89 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8394,6 +8334,16 @@
 			(type default)
 		)
 		(uuid "e2722f0f-5aa0-4989-8993-4c78bd20a638")
+	)
+	(wire
+		(pts
+			(xy 259.08 140.97) (xy 259.08 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bd705d-2f68-410e-a774-01c21ca2db68")
 	)
 	(wire
 		(pts
@@ -8454,6 +8404,16 @@
 			(type default)
 		)
 		(uuid "e955cbe6-14a5-43d4-bab5-c335691b921b")
+	)
+	(wire
+		(pts
+			(xy 243.84 137.16) (xy 243.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2e9efc-d5e6-4d2d-894a-8dabfa20d315")
 	)
 	(wire
 		(pts
@@ -9487,52 +9447,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf")
-		(at 246.38 142.24 90)
+		(lib_id "JLCPCB_side_button:PTS840GKPSMTRLFS")
+		(at 251.46 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "074df22d-8e0b-41b0-a5c9-4479c13feffe")
-		(property "Reference" "S1"
-			(at 247.396 134.366 90)
+		(fields_autoplaced yes)
+		(uuid "06d95ee6-de82-4cef-b0b9-06dd6b8c0a98")
+		(property "Reference" "SW1"
+			(at 251.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Tactile Button, 160gf"
-			(at 247.904 136.144 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-			(at 256.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
-			(at 246.253 144.526 0)
+		(property "Value" "~"
+			(at 251.46 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Description" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
-			(at 246.38 142.24 0)
+		(property "Footprint" "Button_Switch_SMD:SW-SMD_4P-L3.5-W3.5_PTS840GKPSMTRLFS"
+			(at 251.46 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,8 +9481,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
-			(at 246.38 142.24 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180613/C225081_9F77E026501914A5FDEA5EA7C31CDE09.pdf"
+			(at 251.46 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,8 +9490,8 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "403305"
-			(at 246.38 142.24 0)
+		(property "Description" "Circuit:SPST Actuator Style:Rectangle button Operating Force:220gf Mounting Style:Brick nogging Switch Length:3.55mm Switch Width:3.5mm Contact Current:50mA Voltage Rating (DC):12V With Lamp:- Pin Style:Gull Wing Mechanical Life:- Operating Temperature:-4"
+			(at 251.46 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,8 +9499,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.025USD"
-			(at 246.38 142.24 0)
+		(property "Manufacturer Part" "PTS840GKPSMTRLFS"
+			(at 251.46 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,8 +9508,8 @@
 				(hide yes)
 			)
 		)
-		(property "Process" "SMT"
-			(at 246.38 142.24 0)
+		(property "Manufacturer" "C&K"
+			(at 251.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,8 +9517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Minimum Qty" "10"
-			(at 246.38 142.24 0)
+		(property "Supplier Part" "C221906"
+			(at 251.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,8 +9526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Attrition Qty" "5"
-			(at 246.38 142.24 0)
+		(property "Supplier" "LCSC"
+			(at 251.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9594,184 +9535,34 @@
 				(hide yes)
 			)
 		)
-		(property "Class" "Basic Component"
-			(at 246.38 142.24 0)
+		(property "LCSC Part Name" "轻触开关3.5mm*3.55mm，220gf"
+			(at 251.46 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Category" "Switches,Tactile Switches"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XKB Connectivity"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "TS-1187A-B-A-B"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Length" "5.1mm"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating (Dc)" "12V"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "With Lamp" "No"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Force" "160gf"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Actuator/Cap Color" "Golden"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mechanical Life" "100000 Times"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Strike Gundam" "NO"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Circuit" "SPST"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Height" "1.5mm"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Actuator Style" "Round Button"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Switch Width" "5.1mm"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Contact Current" "50mA"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-30°C~+85°C"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Style" "Brick nogging"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "79c40b5b-007e-49c8-b6ca-1f9260be16bc")
 		)
 		(pin "1"
-			(uuid "afc6f355-a665-45a7-8206-96d26032ce16")
+			(uuid "a7df902d-223e-4241-be97-f090467a47a4")
 		)
 		(pin "2"
-			(uuid "10c635c1-2fd3-4ff1-8d23-9d15c279b6a2")
+			(uuid "47e7503d-b451-47d9-bd10-5ebb13276ad9")
+		)
+		(pin "5"
+			(uuid "c8554afa-7a9a-42f4-9fc7-c891d3c0bed5")
 		)
 		(pin "3"
-			(uuid "e557a937-9136-458e-824b-28c012f89a6a")
+			(uuid "9759787e-7d5b-4da2-a112-aa341c90fc7d")
+		)
+		(pin "4"
+			(uuid "99795a42-dc0f-4451-8bd1-91920354a2af")
 		)
 		(instances
 			(project ""
 				(path "/9e3b6887-0651-4960-9bda-f625e12d2778"
-					(reference "S1")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -14088,7 +13879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.372 134.62 90)
 			(effects
 				(font
@@ -14478,7 +14269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.212 134.62 90)
 			(effects
 				(font
@@ -15068,7 +14859,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 142.24 0)
+		(at 266.7 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15076,7 +14867,7 @@
 		(dnp no)
 		(uuid "ed5321da-43c8-44da-af75-a77e266511a6")
 		(property "Reference" "#PWR010"
-			(at 259.08 148.59 0)
+			(at 266.7 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15085,7 +14876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 147.32 0)
+			(at 266.7 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +14884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 142.24 0)
+			(at 266.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +14893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 142.24 0)
+			(at 266.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15111,7 +14902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 142.24 0)
+			(at 266.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
