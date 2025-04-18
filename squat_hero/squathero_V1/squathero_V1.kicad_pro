@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -130,10 +136,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -468,28 +481,101 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "name": "+5V",
-        "pcb_color": "rgb(132, 0, 0)",
-        "priority": 1,
-        "schematic_color": "rgb(132, 0, 0)"
+        "name": "3.3V",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.4
       },
       {
-        "name": "USB",
-        "pcb_color": "rgb(0, 194, 194)",
+        "name": "5V",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 11,
+        "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.4
+      },
+      {
+        "name": "BATT",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 12,
+        "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.4
+      },
+      {
+        "name": "DEBUG_LED",
+        "pcb_color": "rgb(132, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(132, 132, 0)",
+        "track_width": 0.15
+      },
+      {
+        "name": "EN_BUTTON",
+        "pcb_color": "rgb(132, 132, 0)",
         "priority": 2,
-        "schematic_color": "rgb(0, 194, 194)"
+        "schematic_color": "rgb(0, 132, 132)",
+        "track_width": 0.15
+      },
+      {
+        "name": "GPIO",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 72, 0)",
+        "track_width": 0.2
+      },
+      {
+        "name": "HAPTIC_PWM",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 5,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.2
+      },
+      {
+        "name": "IMU_I2C",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 6,
+        "schematic_color": "rgb(221, 133, 0)",
+        "track_width": 0.2
+      },
+      {
+        "name": "PWR_FLT",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(72, 0, 0)",
+        "track_width": 0.5
+      },
+      {
+        "name": "RAW_PWR",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 8,
+        "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.4
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(204, 102, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 132)",
+        "track_width": 0.2
       },
       {
         "name": "USB_CC#",
-        "pcb_color": "rgb(0, 72, 72)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 72, 72)"
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 9,
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2
+      },
+      {
+        "name": "USB_D#",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 10,
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2
       }
     ],
     "meta": {
@@ -499,16 +585,56 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "/USB*"
+        "netclass": "BATT",
+        "pattern": "/BATT*"
       },
       {
-        "netclass": "+5V",
+        "netclass": "5V",
         "pattern": "/+5V*"
+      },
+      {
+        "netclass": "USB_D#",
+        "pattern": "/USB*"
       },
       {
         "netclass": "USB_CC#",
         "pattern": "/CC*"
+      },
+      {
+        "netclass": "RAW_PWR",
+        "pattern": "/raw_power*"
+      },
+      {
+        "netclass": "3.3V",
+        "pattern": "/+3.3V*"
+      },
+      {
+        "netclass": "IMU_I2C",
+        "pattern": "/I2C*"
+      },
+      {
+        "netclass": "HAPTIC_PWM",
+        "pattern": "/PWM*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/GPI0*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/UART*"
+      },
+      {
+        "netclass": "EN_BUTTON",
+        "pattern": "/EN*"
+      },
+      {
+        "netclass": "DEBUG_LED",
+        "pattern": "/DEBUG_*"
+      },
+      {
+        "netclass": "PWR_FLT",
+        "pattern": "/PWR_FLT*"
       }
     ]
   },
